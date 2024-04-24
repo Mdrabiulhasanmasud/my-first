@@ -1,0 +1,283 @@
+/* all comon css :start */
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+a {
+    text-decoration: none;
+    /* display: inline-block; */
+}
+
+ul,
+ol {
+    list-style-type: none;
+}
+
+.clr {
+    clear: both;
+}
+
+.full_wrapper {
+    width: 100%;
+}
+
+.wrapper {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+    padding: 0;
+    line-height: 0.8;
+}
+
+.mr {
+    margin-right: 0 !important;
+}
+
+
+/* all comon css :eand */
+
+
+/* fast  */
+
+.header {
+    background: #0000003b;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+
+.logo {
+    width: 270px;
+    float: left;
+    padding-top: 31px;
+}
+
+.manu {
+    width: 900px;
+    float: left;
+    text-align: right;
+}
+
+.manu ul li {
+    display: inline-block;
+}
+
+.manu ul li a {
+    color: white;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-transform: uppercase;
+    padding-left: 40px;
+    line-height: 90px;
+    transition: all linear .5s;
+}
+
+.manu ul li a:hover {
+    color: aqua;
+}
+
+.bennar {
+    background: url(../images/banner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 330px;
+    padding-bottom: 250px;
+}
+
+.bennar_text {
+    text-align: center;
+}
+
+.bennar_text h3 {
+    color: #fff;
+    font-style: 50px;
+    font-weight: 700;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-transform: uppercase;
+}
+
+.bennar_text h4 {
+    color: #fff;
+    font-style: 40px;
+    font-weight: 300;
+    text-transform: uppercase;
+    font-family: 'Roboto Slab', serif;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.bennar_text p {
+    color: #fff;
+    font-style: 14px;
+    font-weight: 300;
+    font-family: 'Roboto Slab', serif;
+}
+
+.services {
+    background: #dfdada;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.service_text {
+    text-align: center;
+}
+
+.service_text h3 {
+    font-size: 30px;
+    font-weight: 300;
+    font-family: 'Roboto Slab', serif;
+}
+
+.service_text p {
+    color: #666;
+    font: size 14px;
+    font-weight: 400;
+    font-family: 'Roboto', serif;
+    padding-top: 27px;
+    padding-bottom: 75px;
+}
+
+.service_text h4 {
+    color: #444;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-transform: uppercase;
+    padding-bottom: 36px;
+}
+
+.services_gal_item {
+    width: 368px;
+    border: 1px solid rgb(182, 178, 178);
+    padding: 15px;
+    float: left;
+    box-sizing: border-box;
+    margin-right: 30px;
+}
+
+.service_imgg img {
+    width: 100%;
+}
+
+.ser_gal_text {
+    text-align: center;
+}
+
+.ser_gal_text h3 {
+    color: #444;
+    font-size: 17px;
+    font-weight: 700;
+    font-family: 'Roboto Slab', serif;
+    padding-top: 25px;
+    padding-bottom: 10px;
+}
+
+.ser_gal_text p {
+    color: #666;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Roboto', serif;
+    line-height: 20px;
+    width: 285px;
+    margin: 0 auto;
+}
+
+.instagram {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background: #2c2c2c;
+}
+
+.insta_shot {
+    text-align: center;
+    padding-bottom: 45px;
+}
+
+.insta_shot h3 {
+    color: #d5d5d5;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: 'Roboto Condensed', sans-serif;
+    position: relative;
+    display: inline-block;
+}
+
+.insta_shot h3:after {
+    height: 1px;
+    width: 100px;
+    background: #535353;
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: -115px;
+}
+
+.insta_shot h3:before {
+    height: 1px;
+    width: 100px;
+    background: #535353;
+    content: '';
+    position: absolute;
+    top: 50%;
+    right: -115px;
+}
+
+.insta_item {
+    width: 25%;
+    float: left;
+}
+
+.insta_item img {
+    width: 100%;
+}
+
+.insta_images {
+    padding-bottom: 25px;
+}
+
+.insta_btn {
+    text-align: center;
+}
+
+.insta_btn a {
+    padding: 18px 20px;
+    border: 1px solid red;
+    color: #a6a6a6;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+}
+
+.insta_btn i {
+    font-size: 15px;
+    margin-right: 7px;
+}
+
+
+/* vlog item s  */
+
+.vlog {
+    padding-top: 80px;
+}
+
+.vlog_text {
+    color: red;
+}
